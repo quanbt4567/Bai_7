@@ -694,7 +694,7 @@ img.restaurant-logo {
   color: #2b2b2b;
 }
 .story h2 span {
-  display: block;
+  display: inline;
   color: #ffb30e;
   white-space: nowrap;
 }
