@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodwagon — Food Delivery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+3:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="#" aria-label="Foodwagon home"><img class="brand-mark" src="images/logo.svg"
+                    alt=""><span class="brand-food">food</span><span class="brand-wagon">waGon</span>
+            </a>
+            <p class="deliver">
+                <strong>Deliver to:</strong>
+                <img class="pin" src="images/location.svg" alt="">
+                <span>Current Location <b>Mohammadpur Bus Stand, Dhaka</b></span>
+            </p>
+            <nav class="nav-actions">
+                <a class="search-link" href="#">
+                    <img class="search-icon" src="images/Search.svg" alt=""><span>Search Food</span>
+                </a>
+                <a class="login" href="#">
+                    <img src="images/user.svg" alt=""><span>Login</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-inner">
+                <div class="hero-copy">
+                    <h1>Are you starving?</h1>
+                    <p>Within a few clicks, find meals that are accessible near you</p>
+                    <div class="order-card">
+                        <div class="order-tabs"><button class="tab active" type="button" data-mode="delivery"><img
+                                    src="images/moto.svg" alt="">
+                                <span>Delivery</span></button><button class="tab" type="button" data-mode="pickup"><img
+                                    src="images/cart.svg" alt="">
+                                <span>Pickup</span></button></div>
+                        <form class="address-form">
+                            <label class="address-field"><img src="images/location2.svg" alt=""><input
+                                    aria-label="Address" placeholder="Enter Your Address"></label>
+                            <button class="find-button" type="submit"><img src="images/Search.svg" alt=""> Find
+                                Food</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="hero-food"><img src="images/heroPicture.png" alt="A delicious meal"></div>
+            </div>
+        </section>
+
+        <section class="deals section-wrap">
+            <article class="deal-card">
+                <div class="deal-image"><img src="images/4grid/first.png" alt="Food deal"><span
+                        class="discount"><b>15</b><small>%<br>Off</small></span></div>
+                <h3>Greys Vage</h3><span class="deal-pill">6 Days Remaining</span>
+            </article>
+            <article class="deal-card">
+                <div class="deal-image"><img src="images/4grid/second.png" alt="Food deal"><span
+                        class="discount"><b>10</b><small>%<br>Off</small></span></div>
+                <h3>Fresh meals</h3><span class="deal-pill">6 Days Remaining</span>
+            </article>
+            <article class="deal-card">
+                <div class="deal-image"><img src="images/4grid/third.png" alt="Food deal"><span
+                        class="discount"><b>20</b><small>%<br>Off</small></span></div>
+                <h3>Daily specials</h3><span class="deal-pill">7 Days Remaining</span>
+            </article>
+            <article class="deal-card">
+                <div class="deal-image"><img src="images/4grid/fourth.png" alt="Food deal"><span
+                        class="discount"><b>25</b><small>%<br>Off</small></span></div>
+                <h3>Chef's choice</h3><span class="deal-pill">8 Days Remaining</span>
+            </article>
+        </section>
+
+        <section class="how section-wrap">
+            <h2>How does it work</h2>
+            <div class="steps">
+                <article>
+                    <div class="step-icon location"><img src="images/location3.svg" alt=""></div>
+                    <h3>Select location</h3>
+                    <p>Choose the location where your food will be delivered.</p>
+                </article>
+                <article>
+                    <div class="step-icon menu"><img src="images/bell.svg" alt=""></div>
+                    <h3>Choose order</h3>
+                    <p>Check over hundreds of menus to pick your favorite food</p>
+                </article>
+                <article>
+                    <div class="step-icon pay"><img src="images/bill.svg" alt=""></div>
+                    <h3>Pay advanced</h3>
+                    <p>It's quick, safe, and simple. Select several methods of payment</p>
+                </article>
+                <article>
+                    <div class="step-icon enjoy"><img src="images/donut.svg" alt=""></div>
+                    <h3>Enjoy meals</h3>
+                    <p>Food is made and delivered directly to your home.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="popular section-wrap">
+            <h2>Popular items</h2>
+            <div class="product-grid">
+                <article class="product"><img src="images/5grid/burger.png" alt="Cheese Burger">
+                    <h3>Cheese Burger</h3>
+                    <p class="restaurant"><img src="images/location.svg" alt=""> Burger Arena</p>
+                    <strong>$3.88</strong><a class="orange-button" href="#">Order Now</a>
+                </article>
+                <article class="product"><img src="images/5grid/cake.png" alt="Toffe's Cake">
+                    <h3>Toffe’s Cake</h3>
+                    <p class="restaurant"><img src="images/location.svg" alt=""> Top Sticks</p><strong>$4.00</strong><a
+                        class="orange-button" href="#">Order
+                        Now</a>
+                </article>
+                <article class="product"><img src="images/5grid/dan.png" alt="Dancake">
+                    <h3>Dancake</h3>
+                    <p class="restaurant"><img src="images/location.svg" alt=""> Cake World</p><strong>$1.99</strong><a
+                        class="orange-button" href="#">Order
+                        Now</a>
+                </article>
+                <article class="product"><img src="images/5grid/sandwitch.png" alt="Crispy Sandwich">
+                    <h3>Crispy Sandwitch</h3>
+                    <p class="restaurant"><img src="images/location.svg" alt=""> Fastfood Dine</p>
+                    <strong>$3.00</strong><a class="orange-button" href="#">Order Now</a>
+                </article>
+                <article class="product"><img src="images/5grid/soup.png" alt="Thai Soup">
+                    <h3>Thai Soup</h3>
+                    <p class="restaurant"><img src="images/location.svg" alt=""> Foody man</p><strong>$2.79</strong><a
+                        class="orange-button" href="#">Order
+                        Now</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="restaurants section-wrap">
+            <div class="section-heading">
+                <h2>Featured Restaurants</h2>
+            </div>
+            <div class="restaurant-grid">
+                <article class="restaurant-card">
+                    <div class="restaurant-photo"><img src="images/4cols2rows/Food Photo.png" alt="Foodworld">
+                        <div class="photo-labels"><span class="label-off">20% off</span><span
+                                class="label-fast">Fast</span></div>
+                    </div>
+                    <div class="restaurant-info"><img class="restaurant-logo" src="images/4cols2rows/logo/friendly.svg"
+                            alt="">
+                        <div>
+                            <h3>Foodworld</h3>
+                            <p>★ 46</p>
+                        </div>
+                    </div><span class="status closed">Opens tomorrow</span>
+                </article>
+                <article class="restaurant-card">
+                    <div class="restaurant-photo"><img src="images/4cols2rows/pizza.png" alt="Pizzahub">
+                        <div class="photo-labels"><span class="label-off">15% off</span><span
+                                class="label-fast">Fast</span></div>
+                    </div>
+                    <div class="restaurant-info"><img class="restaurant-logo" src="images/4cols2rows/logo/pizza.svg"
+                            alt="">
+                        <div>
+                            <h3>Pizzahub</h3>
+                            <p>★ 40</p>
+                        </div>
+                    </div><span class="status closed">Opens tomorrow</span>
+                </article>
+                <article class="restaurant-card">
+                    <div class="restaurant-photo"><img src="images/4cols2rows/donuts.png" alt="Donuts hut">
+                        <div class="photo-labels"><span class="label-off">10% off</span><span
+                                class="label-fast">Fast</span></div>
+                    </div>
+                    <div class="restaurant-info"><img class="restaurant-logo" src="images/4cols2rows/logo/donut.svg"
+                            alt="">
+                        <div>
+                            <h3>Donuts hut</h3>
+                            <p>★ 20</p>
+                        </div>
+                    </div><span class="status open">Open Now</span>
+                </article>
+                <article class="restaurant-card">
+                    <div class="restaurant-photo"><img src="images/4cols2rows/donuts2.png" alt="Donuts hut">
+                        <div class="photo-labels"><span class="label-off">15% off</span><span
+                                class="label-fast">Fast</span></div>
+                    </div>
+                    <div class="restaurant-info"><img class="restaurant-logo" src="images/4cols2rows/logo/subway.svg"
+                            alt="">
+                        <div>
+                            <h3>Donuts hut</h3>
+                            <p>★ 50</p>
+                        </div>
+                    </div><span class="status open">Open Now</span>
+                </article>
+                <article class="restaurant-card">
+                    <div class="restaurant-photo"><img src="images/4cols2rows/ruby.png" alt="Kuakata Fried Chicken">
+                        <div class="photo-labels"><span class="label-off">25% off</span><span
+                                class="label-fast">Fast</span></div>
+                    </div>
+                    <div class="restaurant-info"><img class="restaurant-logo" src="images/4cols2rows/logo/ruby.svg"
+                            alt="">
+                        <div>
+                            <h3>Kuakata Fried Chicken</h3>
+                            <p>★ 26</p>
+                        </div>
+                    </div><span class="status open">Open Now</span>
+                </article>
+                <article class="restaurant-card">
+                    <div class="restaurant-photo"><img src="images/4cols2rows/kukata.png" alt="Red Square">
+                        <div class="photo-labels"><span class="label-off">10% off</span><span
+                                class="label-fast">Fast</span></div>
+                    </div>
+                    <div class="restaurant-info"><img class="restaurant-logo" src="images/4cols2rows/logo/kfc.svg"
+                            alt="">
+                        <div>
+                            <h3>Red Square</h3>
+                            <p>★ 53</p>
+                        </div>
+                    </div><span class="status open">Open Now</span>
+                </article>
+                <article class="restaurant-card">
+                    <div class="restaurant-photo"><img src="images/4cols2rows/red.png" alt="Taco Bell">
+                        <div class="photo-labels"><span class="label-off">10% off</span><span
+                                class="label-fast">Fast</span></div>
+                    </div>
+                    <div class="restaurant-info"><img class="restaurant-logo" src="images/4cols2rows/logo/red.svg"
+                            alt="">
+                        <div>
+                            <h3>Taco Bell</h3>
+                            <p>★ 45</p>
+                        </div>
+                    </div><span class="status open">Open Now</span>
+                </article>
+                <article class="restaurant-card">
+                    <div class="restaurant-photo"><img src="images/4cols2rows/taco.png" alt="Quick Bites">
+                        <div class="photo-labels"><span class="label-off">10% off</span><span
+                                class="label-fast">Fast</span></div>
+                    </div>
+                    <div class="restaurant-info"><img class="restaurant-logo" src="images/4cols2rows/logo/taco.svg"
+                            alt="">
+                        <div>
+                            <h3>Quick Bites</h3>
+                            <p>★ 35</p>
+                        </div>
+                    </div><span class="status open">Open Now</span>
+                </article>
+            </div>
+            <a class="view-all-btn" href="#">View All <span>›</span></a>
+        </section>
+
+        <section class="categories section-wrap">
+            <div class="section-heading">
+                <h2>Search by Food</h2>
+                <div class="arrows"><a href="#">View All <span>›</span></a><button
+                        aria-label="Previous">‹</button><button aria-label="Next">›</button></div>
+            </div>
+            <div class="category-grid">
+                <article><img src="images/4cols2rows/pizza.png" alt="Pizza">
+                    <h3>Pizza</h3>
+                </article>
+                <article><img src="images/4cols2rows/logo/burger.png" alt="Burger">
+                    <h3>Burger</h3>
+                </article>
+                <article><img src="images/4cols2rows/logo/noodles.png" alt="Noodles">
+                    <h3>Noodles</h3>
+                </article>
+                <article><img src="images/4cols2rows/logo/sub-sandiwch.png" alt="Sandwich">
+                    <h3>Sub-sandwich</h3>
+                </article>
+                <article><img src="images/4cols2rows/logo/chowmein.png" alt="Chowmein">
+                    <h3>Chowmein</h3>
+                </article>
+                <article><img src="images/4cols2rows/logo/steak.png" alt="Steak">
+                    <h3>Steak</h3>
+                </article>
+            </div>
+        </section>
+
+        <section class="feature-band">
+            <div class="feature-card">
+                <div class="feature-item">
+                    <img src="images/moretags/sales.svg" alt="Daily discounts">
+                    <span>Daily<br>Discounts</span>
+                </div>
+                <div class="feature-item">
+                    <img src="images/moretags/livetracing.svg" alt="Live tracing">
+                    <span>Live<br>Tracing</span>
+                </div>
+                <div class="feature-item">
+                    <img src="images/moretags/quickdelivery.svg" alt="Quick delivery">
+                    <span>Quick<br>Delivery</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="deal-stories section-wrap">
+            <article class="story">
+                <div>
+                    <h2>Best deals <span>Crispy Sandwiches</span></h2>
+                    <p>Enjoy the large size of sandwiches. Complete perfect slice of sandwiches.</p><a
+                        class="orange-button" href="#">Proceed to order <span>›</span></a>
+                </div><img src="images/crispysandwiches.png" alt="Crispy sandwich">
+            </article>
+            <article class="story reverse">
+                <div>
+                    <h2>Celebrate parties <span>with Fried Chicken</span></h2>
+                    <p>Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out best deals
+                        for fried chicken.</p><a class="orange-button" href="#">Proceed to order <span>›</span></a>
+                </div><img src="images/friedchicken.png" alt="Fried chicken">
+            </article>
+            <article class="story">
+                <div>
+                    <h2>Wanna eat hot <span>&amp; spicy Pizza?</span></h2>
+                    <p>Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.</p><a
+                        class="orange-button" href="#">Proceed to order <span>›</span></a>
+                </div><img src="images/pizza.png" alt="Hot pizza">
+            </article>
+        </section>
+
+        <section class="order-cta">
+            <div>
+                <h2>Are you ready to order with the best deals?</h2><a class="cta-button" href="#">Proceed to order
+                    <span>›</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="cities">
+                <h3>Our top cities</h3>
+                <div class="city-columns">
+                    <ul>
+                        <li>San Francisco</li>
+                        <li>Miami</li>
+                        <li>San Diego</li>
+                        <li>East Bay</li>
+                        <li>Long Beach</li>
+                    </ul>
+                    <ul>
+                        <li>Los Angeles</li>
+                        <li>Washington DC</li>
+                        <li>Seattle</li>
+                        <li>Portland</li>
+                        <li>Nashville</li>
+                    </ul>
+                    <ul>
+                        <li>New York City</li>
+                        <li>Orange County</li>
+                        <li>Atlanta</li>
+                        <li>Charlotte</li>
+                        <li>Denver</li>
+                    </ul>
+                    <ul>
+                        <li>Chicago</li>
+                        <li>Phoenix</li>
+                        <li>Las Vegas</li>
+                        <li>Sacramento</li>
+                        <li>Oklahoma City</li>
+                    </ul>
+                    <ul>
+                        <li>Columbus</li>
+                        <li>New Mexico</li>
+                        <li>Albuquerque</li>
+                        <li>Sacramento</li>
+                        <li>New Orleans</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <div>
+                        <h4>Company</h4><a href="#">About us</a><a href="#">Team</a><a href="#">Careers</a><a
+                            href="#">Blog</a>
+                    </div>
+                    <div>
+                        <h4>Contact</h4><a href="#">Help &amp; Support</a><a href="#">Partner with us</a><a
+                            href="#">Ride with us</a>
+                    </div>
+                    <div>
+                        <h4>Legal</h4><a href="#">Terms &amp; Conditions</a><a href="#">Refund &amp; Cancellation</a><a
+                            href="#">Privacy Policy</a><a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <h4>Follow Us</h4>
+                    <div class="socials"><span><img src="images/social/insta.svg" alt="Instagram"></span><span><img
+                                src="images/social/facebook.svg" alt="Facebook"></span><span><img
+                                src="images/social/twitter.svg" alt="Twitter"></span></div>
+                    <p>Receive exclusive offers in your mailbox</p>
+                    <form><label><span><img src="images/social/mail.svg" alt=""></span><input type="email"
+                                placeholder="Enter Your email"></label><button type="button">Subscribe</button></form>
+                </div>
+            </div>
+            <div class="copyright"><span>All rights Reserved © Your Company, 2021</span><span>Made with <span
+                        class="heart">♥</span> by
+                    <b>Themewagon</b></span></div>
+        </div>
+    </footer>
+</body>
+
+</html>
