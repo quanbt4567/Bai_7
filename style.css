@@ -717,8 +717,8 @@ img.restaurant-logo {
     0px 14px 32px rgba(255, 178, 14, 0.29);
 }
 .story > img {
-  width: 100%;
-  height: 100%;
+  width: 961px;
+  height: 512px;
   min-height: 420px;
   object-fit: cover;
 }
